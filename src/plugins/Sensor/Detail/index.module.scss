@@ -1,0 +1,71 @@
+.detail{
+    position: absolute;
+    left:20px;
+    top:150px;
+    color: #fff;
+    padding: 20px 15px;
+    border-radius: 4px;
+    width:calc(600 / 750 * 500px);
+    height:500px;
+    background-image: url("../img/tanchuang.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin-top: -666px;
+    margin-left: -200px;
+    z-index: 1;
+    .close{
+        position: absolute;
+        left: calc(500 / 750 * 450px + 11px);
+        top: -30px;
+        width: calc(138 / 38 * 30px);
+        height: 30px;
+        cursor: pointer;
+        pointer-events: all;
+        background-image: url("../img/guanbi.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .header{
+        color:#70dfe3;
+        font-size: 20px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 18px;
+        .arrow{
+            padding-right:20px;
+            display: inline-block;
+            .line{
+                border-top:2px solid #7efdff;
+                width:15px;
+                height:1px;
+                display: block;
+                transform: rotate(30deg);
+                position: absolute;
+                top: 39px;
+                &:last-of-type{
+                    transform: rotate(150deg);
+                    top:46px;
+                }
+            }
+        }
+        .info{
+            display: inline-block;
+        }
+    }
+    .detailInfo{
+        font-size:14px;
+        padding: 20px 20px 0px 20px;
+        .item{
+            padding:5px 0;
+
+        }
+    }
+    .charts{
+        height:280px;
+        width:100%;
+        padding: 20px;
+        pointer-events: all;
+    }
+
+}

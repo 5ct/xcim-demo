@@ -1,0 +1,10 @@
+.info {
+    position: absolute;
+    width: 326px;
+    height: auto;
+    transform: translate(-160px, -50%);
+    background-color: rgba(30, 58, 150, 0.48);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    pointer-events: all;
+}

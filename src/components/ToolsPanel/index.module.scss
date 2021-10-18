@@ -1,0 +1,17 @@
+.toolbar {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+    :global {
+        .bp3-icon {
+            color: #ffffff;
+        }
+    }
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}

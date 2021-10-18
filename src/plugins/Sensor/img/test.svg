@@ -1,0 +1,5 @@
+<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+    //进度条渐变色
+        <circle r="70" cy="75" cx="75" stroke-width="8" stroke="#EAEFF4" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+        <circle  r="70" cy="75" cx="75" stroke-width="8" stroke="#1593FF" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-dashoffset="0px"  stroke-dasharray="71px" />
+</svg>
